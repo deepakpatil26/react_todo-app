@@ -1,0 +1,188 @@
+/* App.css */
+body {
+  margin: 0;
+  font-family: Arial, sans-serif;
+  background-color: var(--background-color);
+  color: var(--text-color);
+  transition: background-color 0.3s ease, color 0.3s ease;
+}
+
+h1 {
+  text-align: center;
+  margin-top: 20px;
+  color: var(--primary-color);
+}
+
+form {
+  display: flex;
+  justify-content: center;
+  margin: 20px;
+}
+
+input[type="text"] {
+  padding: 10px;
+  font-size: 16px;
+  width: 250px;
+  border: 2px solid var(--primary-color);
+  border-radius: 4px;
+}
+
+button {
+  padding: 10px 15px;
+  margin-left: 10px;
+  border: none;
+  background-color: var(--primary-color);
+  color: white;
+  font-size: 16px;
+  border-radius: 4px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+button:hover {
+  background-color: var(--primary-color-hover);
+}
+
+ul {
+  padding: 0;
+  margin: 10px auto;
+  max-width: 600px;
+  list-style: none;
+}
+
+li {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 10px;
+  margin: 10px 0;
+  border: 1px solid var(--primary-color);
+  border-radius: 4px;
+  background-color: var(--background-color);
+  transition: background-color 0.3s ease;
+}
+
+li.overdue {
+  background-color: #ffebee; /* Light red for overdue tasks */
+  color: #b71c1c;
+}
+
+li input[type="checkbox"] {
+  margin-right: 10px;
+}
+
+/* Inline editing alignment */
+li input[type="text"] {
+  flex: 1;
+  padding: 8px;
+  margin-right: 10px;
+  border: 1px solid var(--primary-color);
+  border-radius: 4px;
+  font-size: 14px;
+}
+
+li span {
+  flex: 1;
+}
+
+button.edit,
+button.save,
+button.cancel,
+button.delete {
+  margin-left: 10px;
+  padding: 5px 10px;
+  font-size: 14px;
+}
+
+button.edit {
+  background-color: var(--edit-color);
+}
+
+button.delete {
+  background-color: var(--delete-color);
+}
+
+/* Save and Cancel button styling */
+button.save {
+  background-color: #4caf50; /* Green for Save */
+  color: white;
+  padding: 8px 12px;
+  margin: 0 5px;
+  border: none;
+  border-radius: 4px;
+  font-size: 14px;
+  cursor: pointer;
+}
+
+button.save:hover {
+  background-color: #45a049;
+}
+
+button.cancel {
+  background-color: #f44336; /* Red for Cancel */
+  color: white;
+  padding: 8px 12px;
+  margin: 0 5px;
+  border: none;
+  border-radius: 4px;
+  font-size: 14px;
+  cursor: pointer;
+}
+
+button.cancel:hover {
+  background-color: #d32f2f;
+}
+
+/* Delete button distinct styling */
+button.delete {
+  background-color: #ff5722; /* Orange for Delete */
+  color: white;
+  padding: 8px 12px;
+  margin: 0 5px;
+  border: none;
+  border-radius: 4px;
+  font-size: 14px;
+  cursor: pointer;
+}
+
+button.delete:hover {
+  background-color: #e64a19;
+}
+
+/* Dark Mode Colors */
+:root {
+  --background-color: #f4f4f9;
+  --text-color: #333;
+  --primary-color: #007bff;
+  --primary-color-hover: #0056b3;
+  --task-bg-color: #ffffff;
+  --edit-color: #ffc107;
+  --delete-color: #dc3545;
+}
+
+.dark-mode {
+  --background-color: #121212;
+  --text-color: #e0e0e0;
+  --primary-color: #bb86fc;
+  --primary-color-hover: #985eff;
+  --task-bg-color: #1e1e1e;
+  --edit-color: #ffca28;
+  --delete-color: #f44336;
+}
+
+@media (min-width: 600px) {
+  input[type="text"] {
+    width: 60%;
+    margin-right: 10px;
+  }
+
+  button {
+    width: auto;
+  }
+}
+
+@media (min-width: 1024px) {
+  ul {
+    max-width: 600px;
+  }
+}

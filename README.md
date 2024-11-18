@@ -16,6 +16,7 @@ A sleek and modern To-Do Application built with React, designed to help you stay
 - Prioritization: Assign priorities like Low, Medium, and High for tasks.
 
 ---
+
 📸 Screenshots  
 Light Mode  
 ![Light Mode](https://drive.google.com/uc?export=view&id=1RN4xVhdBSZ06NZSgRQIBlRjGesEPW3oz)
@@ -25,9 +26,8 @@ Dark Mode
 
 ---
 
-
 🚀 Live Demo
-Check out the live version of the app on CodeSandbox.
+Check out the live version of the app on [Netlify](https://wonderful-fenglisu-a266f2.netlify.app/).
 
 ---
 
@@ -102,7 +102,7 @@ This project is licensed under the MIT License. You are free to use, modify, and
 ---
 
 📧 Contact
-If you have any questions or feedback, feel free to reach out at your-deepakpatil2612@gmail.com
+If you have any questions or feedback, feel free to reach out at deepakpatil2612@gmail.com
 
 ---
 

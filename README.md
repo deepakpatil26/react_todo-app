@@ -1,9 +1,10 @@
-🌟 To-Do App
+# 🌟 To-Do App
+
 A sleek and modern To-Do Application built with React, designed to help you stay organized, productive, and focused. With support for dark mode, task prioritization, and due dates, this app ensures you never miss a deadline.
 
 ---
 
-✨ Features
+## ✨ Features
 
 - Add Tasks: Add tasks with a name, priority, and optional due date.
 - Edit Tasks: Update task names and details seamlessly.
@@ -17,21 +18,21 @@ A sleek and modern To-Do Application built with React, designed to help you stay
 
 ---
 
-📸 Screenshots  
-Light Mode  
-![Light Mode](https://drive.google.com/uc?export=view&id=1RN4xVhdBSZ06NZSgRQIBlRjGesEPW3oz)
+## 📸 Screenshots
 
-Dark Mode  
-![Dark Mode](https://drive.google.com/uc?export=view&id=10XyQ5Ie_a-U-JhvU3RW2UL7zgXF2QAii)
+|                         Dark View                         |                         Light View                          |
+| :-------------------------------------------------------: | :---------------------------------------------------------: |
+| ![Dark Mode Screenshot](public/images/todo_dark_mode.png) | ![Light Mode Screenshot](public/images/todo_light_mode.png) |
 
 ---
 
-🚀 Live Demo
+## 🚀 Live Demo
+
 Check out the live version of the app on [Netlify](https://wonderful-fenglisu-a266f2.netlify.app/).
 
 ---
 
-🛠️ Technologies Used
+## 🛠️ Technologies Used
 
 - Frontend: React.js
 - Styling: CSS with custom dark mode support
@@ -39,12 +40,11 @@ Check out the live version of the app on [Netlify](https://wonderful-fenglisu-a2
 
 ---
 
-📖 How to Run Locally
+## 📖 How to Run Locally
 
 1. Clone the repository:
 
 ```bash
-
 git clone https://github.com/deepakpatil26/todo-app.git
 cd todo-app
 ```
@@ -52,24 +52,22 @@ cd todo-app
 2. Install dependencies:
 
 ```bash
-
 npm install
 ```
 
 3. Start the development server:
 
 ```bash
-
 npm start
 ```
 
-4. Open the app: Visit http://localhost:3000 in your browser.
+4. Open the app: Visit [http://localhost:3000](http://localhost:3000) in your browser.
 
 ---
 
-📂 Project Structure
+## 📂 Project Structure
 
-```java
+```javascript
 
 ├── public
 │ └── index.html
@@ -87,7 +85,8 @@ npm start
 
 ---
 
-🌈 Contributing
+## 🌈 Contributing
+
 Contributions are welcome! If you find bugs or have suggestions for new features:
 
 1. Fork the repository.
@@ -96,13 +95,15 @@ Contributions are welcome! If you find bugs or have suggestions for new features
 
 ---
 
-📝 License
+## 📝 License
+
 This project is licensed under the MIT License. You are free to use, modify, and distribute it as you see fit.
 
 ---
 
-📧 Contact
-If you have any questions or feedback, feel free to reach out at deepakpatil2612@gmail.com
+## 📧 Contact
+
+If you have any questions or feedback, feel free to reach out at [deepakpatil2612@gmail.com](mailto:deepakpatil2612@gmail.com)
 
 ---
 

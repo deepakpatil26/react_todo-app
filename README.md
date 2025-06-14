@@ -44,22 +44,22 @@ Check out the live version of the app on [Netlify](https://wonderful-fenglisu-a2
 
 1. Clone the repository:
 
-```bash
-git clone https://github.com/deepakpatil26/todo-app.git
-cd todo-app
-```
+   ```bash
+   git clone https://github.com/deepakpatil26/todo-app.git
+   cd todo-app
+   ```
 
 2. Install dependencies:
 
-```bash
-npm install
-```
+   ```bash
+   npm install
+   ```
 
 3. Start the development server:
 
-```bash
-npm start
-```
+   ```bash
+   npm start
+   ```
 
 4. Open the app: Visit [http://localhost:3000](http://localhost:3000) in your browser.
 

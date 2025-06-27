@@ -28,7 +28,7 @@ A sleek and modern To-Do Application built with React, designed to help you stay
 
 ## 🚀 Live Demo
 
-Check out the live version of the app on [Netlify](https://wonderful-fenglisu-a266f2.netlify.app/).
+Check out the live version of the app on [Netlify](https://react-todo-app-345.netlify.app/).
 
 ---
 
